@@ -4,10 +4,6 @@
 
 Build shopping site using technical stacks below. Feel free to design your pages.
 
-- Fork this repository.
-- Make a directory using your team number and your shorten name like team-6-SJ.
-- Work in that directory you made.
-
 ## Technical stacks
 
 Vue.js + Vuex + JavaScript + Vuetify
@@ -16,7 +12,7 @@ Vue.js + Vuex + JavaScript + Vuetify
 
 - Products list page (https://fakestoreapi.com/products)
 - Product detail page (https://fakestoreapi.com/products/1)
-- Cart page (localStorage)
+- Cart page (Use Vuex for implementing cart page. Don't need to preserve the status of cart page when you refresh the page.)
 
 ## Deadline
 
