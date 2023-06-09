@@ -6,7 +6,7 @@ Build shopping site using technical stacks below. Feel free to design your pages
 
 - Fork this repository.
 - Make a directory using your team number and your shorten name like team-6-SJ.
-- Work on that repository
+- Work in that directory you made.
 
 ## Technical stacks
 
