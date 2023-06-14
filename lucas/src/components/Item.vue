@@ -10,7 +10,7 @@
       <v-img :src="list.image" height="280" width="220" class="mx-5"></v-img>
       <div class="w-75">
         <v-card-title class="d-flex text-subtitle-1 text-black text-capitalize">
-           {{ list.category }}
+          {{ list.category }}
         </v-card-title>
 
         <div class="d-flex mt-n5">
@@ -32,7 +32,7 @@
             >
           </v-card-actions>
         </div>
-        
+
         <div>{{ list.description }}</div>
 
         <div class="mt-2 text-end">

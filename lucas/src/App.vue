@@ -1,6 +1,6 @@
 <template>
   <RouterView />
-  <AppBar/>
+  <AppBar />
 </template>
 
 <script setup>

@@ -17,7 +17,6 @@ export default {
   data() {
     return {
       lists: [],
-      isCart: false,
     };
   },
   mounted() {
@@ -26,12 +25,9 @@ export default {
       .then((response) => (this.lists = response.data));
   },
   computed: {
-    countItem() {
-      return this.$store.state.counts;
-    },
     showBoard() {
-      return this.$store.state.show
-    }
+      return this.$store.state.show;
+    },
   },
   components: {
     Card,

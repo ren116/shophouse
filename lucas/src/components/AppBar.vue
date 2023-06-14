@@ -41,27 +41,20 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex';
+import { mapMutations } from "vuex";
 
 export default {
   name: "AppBar",
-  data() {
-    return {
-      isCart: false,
-    };
-  },
-  mounted() {
-  },
+  data() {},
+  mounted() {},
   computed: {
     countItem() {
       return this.$store.state.counts;
     },
   },
-  components: {
-  },
-  methods:{
+  components: {},
+  methods: {
     ...mapMutations(["CHANGEBOARD"]),
-  }
+  },
 };
 </script>
-
