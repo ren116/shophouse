@@ -1,4 +1,4 @@
-# base
+# Base
 
 ## Project setup
 
@@ -33,6 +33,6 @@ pnpm dev
 - We can enter this with url like '\shopping' or push button 'Shopping' in 'Home' page.
 - In this shopping page, you can see list and detail of every item and then can add items to cart.
 
-### Customize configuration
+### About me
 
-See [Configuration Reference](https://vitejs.dev/config/).
+I am Lucas Marvel and I love programme very much.
