@@ -1,6 +1,6 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive class="align-center text-center fill-height">
+  <v-container class="fill-height mt-16 pt-16">
+    <v-responsive class="align-center text-center fill-height mt-16">
       <v-img height="300" src="@/assets/logo.svg" />
 
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
@@ -58,6 +58,4 @@
   </v-container>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
