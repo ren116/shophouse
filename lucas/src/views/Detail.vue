@@ -41,9 +41,13 @@
       <h2 class="ma-4">Description</h2>
       <div>{{ list.description }}</div>
       <div class="mt-2 text-end">
-        <v-btn href="/shopping" class="me-8" @:click="ADD(list.id)">Go to Shopping</v-btn>
+        <v-btn href="/shopping" class="me-8" @:click="ADD(list.id)"
+          >Go to Shopping</v-btn
+        >
 
-        <v-btn color="primary" class="me-8" @:click="ADD(list.id)">Add to Cart</v-btn>
+        <v-btn color="primary" class="me-8" @:click="ADD(list.id)"
+          >Add to Cart</v-btn
+        >
 
         <v-btn color="secondary" class="ma-2" @click="dialog = true"
           >Remove Item</v-btn
