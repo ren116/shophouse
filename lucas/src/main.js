@@ -14,6 +14,7 @@ const store = createStore({
   state: {
     counts: 0,
     listId: [],
+    show: 0,
   },
   mutations: {
     ADD(state, payload) {
@@ -35,6 +36,9 @@ const store = createStore({
         state.listId = [...tmp];
         state.counts--;
       }
+    },
+    CHANGEBOARD(state, payload) {
+      state.show ^= 1;
     },
   },
 });

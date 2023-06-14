@@ -15,7 +15,7 @@
           <v-app-bar-nav-icon></v-app-bar-nav-icon>
         </template>
 
-        <v-app-bar-title>E-Shop</v-app-bar-title>
+        <v-app-bar-title>Shopping</v-app-bar-title>
 
         <v-spacer></v-spacer>
 
@@ -30,7 +30,38 @@
         <v-btn icon>
           <v-icon>mdi-dots-vertical</v-icon>
         </v-btn>
+        <v-btn @:click="CHANGEBOARD" icon>
+          <v-badge :content="countItem" color="error">
+            <v-icon>mdi-cart-outline</v-icon>
+          </v-badge>
+        </v-btn>
       </v-app-bar>
     </v-layout>
   </v-card>
 </template>
+
+<script>
+import { mapMutations } from 'vuex';
+
+export default {
+  name: "AppBar",
+  data() {
+    return {
+      isCart: false,
+    };
+  },
+  mounted() {
+  },
+  computed: {
+    countItem() {
+      return this.$store.state.counts;
+    },
+  },
+  components: {
+  },
+  methods:{
+    ...mapMutations(["CHANGEBOARD"]),
+  }
+};
+</script>
+
